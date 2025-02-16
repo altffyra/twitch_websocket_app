@@ -1,2 +1,5 @@
 fastapi
 uvicorn[standard]
+pyspellchecker==0.6.2
+requests
+python-dotenv

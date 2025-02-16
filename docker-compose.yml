@@ -4,7 +4,7 @@ services:
     build: ./backend
     container_name: py-backend
     ports:
-      - "8000:8000"
+      - "6789:6789"
   frontend:
     build: ./frontend
     container_name: vite-frontend
