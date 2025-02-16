@@ -1,0 +1,12 @@
+version: '3'
+services:
+  backend:
+    build: ./backend
+    container_name: py-backend
+    ports:
+      - "8000:8000"
+  frontend:
+    build: ./frontend
+    container_name: vite-frontend
+    ports:
+      - "3000:80"
